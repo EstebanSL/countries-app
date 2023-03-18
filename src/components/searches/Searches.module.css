@@ -1,0 +1,30 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+  max-width: 1300px;
+  margin: auto;
+}
+
+.inputCont {
+  padding: 0 0 0 1rem;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0 0 10px hsl(200, 15%, 8%);
+  color: white;
+  background-color: hsl(209, 23%, 22%);
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.input {
+  padding: 1rem 2rem;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1rem;
+  border: none;
+  color: #fff;
+  background-color: transparent;
+  outline: none;
+  min-width: 350px;
+}

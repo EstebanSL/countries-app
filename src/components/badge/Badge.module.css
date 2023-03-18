@@ -1,0 +1,14 @@
+.badge {
+  padding: .2rem .5rem;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0 0 10px hsl(200, 15%, 8%);
+  color: white;
+  background-color: hsl(209, 23%, 22%);
+  font-family: 'Nunito Sans', sans-serif;
+  cursor: pointer;
+}
+
+.badge:hover {
+  transform: scale(1.05);
+}

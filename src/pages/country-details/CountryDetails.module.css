@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.backBtn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0 0 10px hsl(200, 15%, 8%);
+  color: white;
+  width: fit-content;
+  background-color: hsl(209, 23%, 22%);
+  font-family: 'Nunito Sans', sans-serif;
+  cursor: pointer;
+}
+
+.backBtn:hover {
+  transform: scale(1.05);
+}
+
+.backBtn p {
+  margin: 0;
+}
+
+.countryData {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flag {
+  max-width: 400px;
+  width: 50%;
+  height: 100%;
+}
+
+.data {
+  width: 50%;
+  font-family: 'Nunito Sans', sans-serif;
+  color: white;
+}
+
+.data h2 {
+  text-align: start;
+}
+
+.information {
+  text-align: start;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem 0;
+}
+
+.primaryInformation {
+  flex: 1;
+}
+
+.secondaryInformation {
+  flex: 1;
+}
+
+.tertiaryInformation {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem 1rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

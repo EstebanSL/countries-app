@@ -1,4 +1,4 @@
-.header {
+.searches {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -12,9 +12,9 @@
   padding: 0 0 0 1rem;
   box-sizing: border-box;
   border-radius: 5px;
-  box-shadow: 0 0 10px hsl(200, 15%, 8%);
-  color: white;
-  background-color: hsl(209, 23%, 22%);
+  box-shadow: 0 0 2px hsl(200, 15%, 8%);
+  color: var(--text);
+  background-color: var(--details);
   font-family: 'Nunito Sans', sans-serif;
 }
 
@@ -23,8 +23,24 @@
   font-family: 'Nunito Sans', sans-serif;
   font-size: 1rem;
   border: none;
-  color: #fff;
+  color: var(--text);
   background-color: transparent;
   outline: none;
   min-width: 350px;
+}
+
+@media screen and (max-width: 768px) {
+  .searches {
+    flex-direction: column;
+    gap: 2rem 0;
+  }
+
+  .input {
+    min-width: auto;
+  }
+
+  .select {
+    padding: 1rem;
+    max-width: 150px;
+  }
 }

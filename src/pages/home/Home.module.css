@@ -10,7 +10,7 @@
 }
 
 .noResults {
-  color: #fff;
+  color: var(--text);
   font-weight: 600;
   font-size: 1.5rem;
   font-family: 'Nunito Sans', sans-serif;

@@ -1,6 +1,16 @@
+:root {
+  --background: white;
+  --text: hsl(200, 15%, 8%);
+  --details: white;
+}
+[data-theme='dark'] {
+  --background: hsl(207, 26%, 17%);
+  --text: white;
+  --details: hsl(209, 23%, 22%);
+}
+
 .html, body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: hsl(207, 26%, 17%);
 }

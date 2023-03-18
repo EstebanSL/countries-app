@@ -1,7 +1,7 @@
 .country {
   max-width: 350px;
-  box-shadow: 0px 0px 4px black;
-  background-color: hsl(209, 23%, 22%);
+  box-shadow: 0px 0px 2px black;
+  background-color: var(--background);
   border-radius: 5px;
   overflow: hidden;
   transition: all ease .3s;
@@ -21,14 +21,14 @@
 .info {
   font-family: 'Nunito Sans', sans-serif;
   padding: 1rem;
-  color: #fff;
+  color: var(--text);
   text-align: start;
 }
 
 .info h2, .info p {
   font-family: 'Nunito Sans', sans-serif;
   margin: 0;
-  color: white;
+  color: var(--text);
 }
 
 .info h2 {

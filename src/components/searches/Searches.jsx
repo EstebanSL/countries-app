@@ -60,12 +60,12 @@ const Searches = ({ countriesList, setCountries }) => {
   };
 
   return (
-    <div className={styles.header}>
+    <div className={styles.searches}>
       <div className={styles.inputCont}>
         <i className="fa-solid fa-magnifying-glass"></i>
         <input className={styles.input} type="text" value={search} onChange={(e) => handleType(e)} placeholder='Search a country' />
       </div>
-      <select onChange={(e) => handleFilter(e)} className={styles.inputCont} defaultValue='All'>
+      <select onChange={(e) => handleFilter(e)} className={`${styles.inputCont} ${styles.select}`} defaultValue='All'>
         <option value="Americas">Americas</option>
         <option value="Asia">Asia</option>
         <option value="Africa">Africa</option>

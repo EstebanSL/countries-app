@@ -1,14 +1,29 @@
 .header {
-  background-color: hsl(209, 23%, 22%);
+  background-color: var(--details);
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
   font-family: 'Nunito Sans', sans-serif;
-  color: #fff;
+  color: var(--text);
+  box-shadow: 0 0 2px hsl(200, 15%, 8%);
   padding: 1rem 0;
 }
 
 .header h1 {
   margin: 0;
+}
+
+.theme {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 1rem;
+    box-sizing: border-box;
+  }
 }
